@@ -1,4 +1,4 @@
-FROM node:10.16.3-alpine
+FROM node:10.23.2-alpine
 RUN apk add --update --no-cache git make g++ automake autoconf libtool nasm libpng-dev
 
 COPY ./package.json /website/package.json
